@@ -16,3 +16,4 @@ def test_main_run_without_exceptions(_the_snake):
             f'`{type(error).__name__}: {error}`\n\n'
             'Убедитесь, что функция работает корректно.'
         )
+

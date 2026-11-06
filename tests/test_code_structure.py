@@ -130,3 +130,4 @@ def test_vars_are_functions(func_name, _the_snake):
     assert callable(getattr(_the_snake, func_name, None)), (
         f'Убедитесь, что переменная `{func_name}` - это функция.'
     )
+

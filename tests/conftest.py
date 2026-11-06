@@ -138,3 +138,4 @@ def modified_clock(_the_snake):
     _the_snake.clock = modified_clock_obj
     yield
     _the_snake.clock = original_clock
+
