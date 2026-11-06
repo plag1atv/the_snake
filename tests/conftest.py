@@ -1,6 +1,5 @@
 import os
 import sys
-
 from multiprocessing import Process
 from pathlib import Path
 from typing import Any
