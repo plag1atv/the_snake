@@ -153,6 +153,7 @@ def main():
             if snake.last is not None:
                 snake.positions.append(snake.last)
                 snake.last = None
+
             if not apple.randomize_position(snake.positions):
                 snake.reset()
                 apple.randomize_position(snake.positions)
