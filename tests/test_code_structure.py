@@ -2,6 +2,7 @@ import pygame
 import pytest
 
 
+
 EXPECTED_GAME_OBJECT_ATTRS = (
     ('атрибут', 'position'),
     ('атрибут', 'body_color'),
